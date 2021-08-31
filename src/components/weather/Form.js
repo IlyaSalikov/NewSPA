@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Form = () => {
+const Form = (props) => {
     return (
         <div className={"weather-form"}>
-            <form action="">
+            <form action="" onSubmit={props.weatherMethod}>
                 <input type="text" name={"city"} placeholder={"Введите город"}/>
                 <button>Узнать погоду</button>
             </form>
