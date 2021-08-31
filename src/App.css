@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd9d9;
+}
+
+ul.header {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul.header li {
+    flex: 0 1 200px;
+    min-height: 50px;
+    background-color: darkseagreen;
+    padding: 5px;
+    text-align: center;
+
+}
+
+ul.header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+.active {
+    background-color: #8787e5;
+}
+
